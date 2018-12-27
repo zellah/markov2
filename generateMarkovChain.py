@@ -1,7 +1,7 @@
 from markov import Markov
 
-f = open('poems.txt')
+f = open('zaurgPosts.txt')
 
 m = Markov(f)
 
-print(m.generate_markov_text(500))
+print(m.generate_markov_text(400))
